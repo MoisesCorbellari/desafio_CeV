@@ -21,5 +21,5 @@ for p in range(0,7):
 pares.sort()
 impares.sort()
 line('Lista com pares e impares', 60)
-print(f'\n-> Valores pares digitados: {pares}')
-print(f'-> Valores ímpares digitados: {impares}\n')
+print(f'\n-> Valores pares digitados: {pares}.')
+print(f'-> Valores ímpares digitados: {impares}.\n')
