@@ -4,6 +4,7 @@ A) A soma de todos os valores pares digitados.
 B) A soma dos valores da terceira coluna.
 C) O maior valor da segunda linha.
 '''
+
 import os
 from time import sleep
 
@@ -36,13 +37,16 @@ for l in range(0,3):
                 maiorSegLinha = matriz[l][c]
             elif matriz[l][c] > maiorSegLinha:
                 maiorSegLinha = matriz[l][c]
+                
 sleep(1)
 limpaTela()
+
 line('Matriz 3x3\n', 60)
 for l in range(0,3):
     for c in range(0,3):
         print(f'[{matriz[l][c]:^7}]', end='')
     print()
+    
 line('Analise da soma e maior valor', 60)
 print(f'\nA) Soma de todos os valores pares: {somaPar}.')
 print(f'B) Soma dos valores da terceira coluna: {somaTerCol}.')
